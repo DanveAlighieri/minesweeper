@@ -10,7 +10,7 @@
         }
         static void draw(Grid grid)
         {
-            Console.Clear();
+            Console.Clear(); 
             Console.SetCursorPosition(0, 0);
             Console.WriteLine(grid.drawGrid());
 
@@ -37,6 +37,30 @@
         public void setMine()
         {
             mine = true;
+        }
+        public int getNeighbours()
+        {
+            return neighbours;
+        }
+        public void setNeighbours(int noNeighbours)
+        {
+            neighbours = noNeighbours;
+        }
+        public bool getRevealed()
+        {
+            return revealed;
+        }
+        public void setRevealed()
+        {
+
+        }
+        public bool getFlag()
+        {
+            return flag;
+        }
+        public void setFlag()
+        {
+
         }
     }
     class Grid
