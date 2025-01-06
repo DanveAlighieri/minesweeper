@@ -52,7 +52,7 @@
         }
         public void setRevealed()
         {
-
+            
         }
         public bool getFlag()
         {
@@ -74,7 +74,7 @@
         private Random rnd;
         public Grid(int width, int height)
         {
-            this.width = width;
+            this.width = width; 
             this.height = height;
             grid = new int[width, height];
             revealed = new bool[width, height];
